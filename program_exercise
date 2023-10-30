@@ -12,3 +12,19 @@ def fizzbizz():
                 else:
                     print(i)
 fizzbizz()
+
+
+
+def palindrome(pl):
+    return pl == pl[::-1]
+
+pl=str(input("Enter the word: "))
+check= palindrome(pl)
+
+if check:
+    print("True")
+
+else:
+    print("False")
+
+palindrome(pl)
