@@ -28,3 +28,23 @@ else:
     print("False")
 
 palindrome(pl)
+
+
+
+
+
+def panagram(s):
+    pana= "abcdefghijklmnopqrstuvwxyz"
+    for i in pana:
+        if i not in s.lower():
+            return False
+    else:
+            return True
+s=str(input("enter the string:"))
+
+if panagram(s)== True:
+    print("yes")
+else:
+    print("no")
+    
+panagram(s)
