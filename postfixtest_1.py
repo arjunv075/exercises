@@ -7,3 +7,6 @@ def test_singleoperand():
 def test_add():
     assert eval("26+") == 8
 
+def test_sub():
+    assert eval("43-") == 2
+
