@@ -1,7 +1,5 @@
+from importguard import palindrome
 import unittest
-
-def palindrome(pl):
-    return pl == pl[::-1]
 
 class TestPalindrome(unittest.TestCase):
     def testIsPalindrome(self):
