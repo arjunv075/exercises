@@ -14,5 +14,5 @@ def test_mul():
     assert eval("34*") == 12
 
 def test_div():
-    assert eval("82/") == 5
+    assert eval("82/") == 4
 

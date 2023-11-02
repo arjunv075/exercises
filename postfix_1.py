@@ -1,7 +1,7 @@
 def eval(exp):
     stack=[]
     for i in exp:
-        if i in ["+","-","*"]:
+        if i in ["+","-","*","/"]:
             operand2= stack.pop()
             operand1= stack.pop()
             if i== "+":
