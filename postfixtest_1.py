@@ -11,5 +11,5 @@ def test_sub():
     assert eval("43-") == 1
 
 def test_mul():
-    assert eval("34*") == 10
+    assert eval("34*") == 12
 
