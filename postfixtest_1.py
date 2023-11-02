@@ -10,6 +10,9 @@ def test_add():
 def test_sub():
     assert eval("43-") == 1
 
+def test_sub2():
+    assert eval("36-") == -2
+
 def test_mul():
     assert eval("34*") == 12
 
