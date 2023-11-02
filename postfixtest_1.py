@@ -13,3 +13,6 @@ def test_sub():
 def test_mul():
     assert eval("34*") == 12
 
+def test_div():
+    assert eval("82/") == 5
+

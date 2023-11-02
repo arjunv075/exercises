@@ -8,8 +8,10 @@ def eval(exp):
                 stack.append(operand1+operand2)
             elif i== "-":
                 stack.append(operand1-operand2)
-            else:
+            elif i== "*":
                 stack.append(operand1*operand2)
+            else:
+                stack.append(operand1//operand2)
         else:
             stack.append(int(i))
     return stack.pop()
